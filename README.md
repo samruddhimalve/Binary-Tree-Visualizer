@@ -89,7 +89,7 @@ This project is an interactive **Binary Search Tree (BST) visualizer** that allo
 
 ---
 ## 📢 Contributors
-👩‍💻 *[Your Name]* – Developer & Designer  
+👩‍💻 *Samruddhi Malve* – Developer & Designer  
 📩 Feel free to reach out for improvements or collaborations! 🚀
 
 ---
