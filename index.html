@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary Search Tree Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="stars"></div>
+<div class="container">
+    <h1>Binary Search Tree Visualizer</h1>
+    <input type="number" id="inputValue" placeholder="Enter a number">
+    <button onclick="insertNode()">Insert</button>
+    <button onclick="resetTree()">Reset Tree</button>
+</div>
+
+<!-- Traversal Order Display (Now above the tree) -->
+<div id="orderContainer">
+    <h3>Traversal Orders</h3>
+    <p><strong>Inorder:</strong> <span id="inorderDisplay">N/A</span></p>
+    <p><strong>Preorder:</strong> <span id="preorderDisplay">N/A</span></p>
+    <p><strong>Postorder:</strong> <span id="postorderDisplay">N/A</span></p>
+</div>
+
+<!-- Tree Visualization -->
+<div id="treeContainer"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
